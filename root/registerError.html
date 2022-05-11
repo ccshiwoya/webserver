@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+
+    <link rel="stylesheet" href="css/regist.css">
+    <link rel="shortcut icon" href="images/camera.ico">
+</head>
+<body>
+    <!--头部-->
+    <div id="reg_header">
+        <div class="reg_h_center">
+            <div class="reg_h_left">
+                <img src="images/logo.png" alt="">
+                <h1>欢迎注册</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!--表单内容-->
+    <div class="reg_back">
+        <div class="reg_left">
+            <p>新用户注册</p>
+            <p>USER REGISTER</p>
+        </div>
+        <div class="reg_center">
+            <div class="reg_form">
+                <form action="3CGISQL.cgi" method="post">
+                    <table>
+                        <tr>
+                            <td class="td_left"><label for="username">用户名</label></td>
+                            <td class="td_right">
+                                <input type="text" name="user" placeholder="用户名" required="required">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td_left"><label for="password">密码</label></td>
+                            <td class="td_right">
+                                <input type="password" name="password" placeholder="用户密码" required="required">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center"><button type="submit">注册</button></td>
+                        </tr>
+                    </table>
+                </form>                
+                </div>
+            <br />
+            <div>提示：该用户名被注册.</div>
+        </div>
+        <div class="reg_right">
+            <p>已有账号?<a href="1">立即登录</a></p>
+        </div>
+    </div>
+</body>
+</html>

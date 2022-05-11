@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="shortcut icon" href="images/camera.ico">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <!--头部-->
+    <div id="header">
+        <!--头部中间信息-->
+        <div class="h_center">
+            <img src="images/logo.png" alt="">           
+        </div>
+    </div>
+    <!--中部-->
+    <div id="login_body">
+        <div class="login_b_center">
+            <div class="login_bg">
+                <h2>密码登录</h2><br />
+                <form action="2CGISQL.cgi" method="post">
+                    <!--                //用户名-->
+                    <div class="userName">
+                        <span></span><input type="text" name="user" placeholder="用户名" required="required">
+                    </div><br />
+                    <!--                //密码-->
+                    <div class="password">
+                        <span></span><input type="password" name="password" placeholder="登录密码" required="required">
+                    </div><br />
+                    <!--                //登录按钮-->
+                    <div class="login_btn">
+                        <button type="submit">登录</button>
+                    </div><br />
+                </form>
+                <div class="forgot_password">
+                    <a href="">忘记密码</a>
+                    <a href="0">注册账号</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
